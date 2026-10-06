@@ -13,7 +13,7 @@ jobs:
     env:
       DATABRICKS_AUTH_TYPE: github-oidc
       DATABRICKS_HOST: https://dbc-356c5b89-4209.cloud.databricks.com
-      DATABRICKS_CLIENT_ID: 74489d70-a2e6-47b8-bf25-b18c7054e196
+      DATABRICKS_CLIENT_ID: cf777b84-7e7f-41d6-acf8-70f597c38eef
 
     steps:
       - name: Checkout repository
