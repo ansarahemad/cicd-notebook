@@ -22,5 +22,11 @@ jobs:
       - name: Install Databricks CLI
         uses: databricks/setup-cli@main
 
-      - name: Run Databricks CLI commands
+      - name: Who am i
         run: databricks current-user me
+      
+      - name: validate bundle
+        run: databricks bundle validate --target dev
+
+      - name: Deploy bundle
+        run: databricks bundle deploy --target dev

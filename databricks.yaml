@@ -1,0 +1,11 @@
+# This is a test yaml file
+bundle:
+  name: pocDAB
+
+include:
+  - resources/*.yaml
+
+targets:
+  dev:
+    workspace:
+      host: https://dbc-356c5b89-4209.cloud.databricks.com
